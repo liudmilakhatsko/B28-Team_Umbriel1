@@ -15,7 +15,7 @@ import java.util.List;
 
 public class US12_access_employeeOption {
 
-    US01_LoginPage_Ilknur home = new US01_LoginPage_Ilknur();
+
 
     US12_access_employeeOptionPage module = new US12_access_employeeOptionPage();
 
@@ -23,7 +23,7 @@ public class US12_access_employeeOption {
     public void users_click_the_employees_module() {
         //home.login(ConfigurationReader.getProperty("HR_username"), ConfigurationReader.getProperty("HR_password"));
         module.employeesModule.click();
-        BrowserUtils.sleep(2);
+
 
 
 
